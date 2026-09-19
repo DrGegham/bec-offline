@@ -128,6 +128,7 @@ function about(){
   h+='<h2>Credits, as shown in the original app</h2>';
   (S.acks_paras||[]).forEach(function(t){h+='<p>'+esc(t)+'</p>'});
   h+='<h2>Disclaimer, as shown in the original app</h2><p class="plain">'+esc(S.slide3_desc||'')+'</p>';
+  h+='<p class="plain">App version 1.1</p>';
   h+='</div></main>';
   return h;
 }
